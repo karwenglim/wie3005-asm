@@ -23,7 +23,7 @@ To run this app, you need Python installed on your system. Follow the steps belo
 ### 1. Clone this Repository
 
 ```terminal
-git clone (https://github.com/kxrweng/wie3005-asm.git)
+git clone https://github.com/kxrweng/wie3005-asm.git
 
 ```
 
@@ -45,7 +45,7 @@ The required dependencies are:
 
 Once all dependencies are installed, you can start the app by running the following command:
 
-```bash
+```terminal
 streamlit run Home.py
 ```
 
