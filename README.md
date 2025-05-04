@@ -1,3 +1,5 @@
+
+
 ---
 
 # Healthcare Knowledge-Based System
@@ -21,7 +23,8 @@ To run this app, you need Python installed on your system. Follow the steps belo
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/kxrweng/wie3005-asm.git
+git clone <your-repository-url>
+cd <your-repository-folder>
 ```
 
 ### 2. Install Dependencies
