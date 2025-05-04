@@ -22,16 +22,16 @@ To run this app, you need Python installed on your system. Follow the steps belo
 
 ### 1. Clone this Repository
 
-```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+```terminal
+git clone (https://github.com/kxrweng/wie3005-asm.git)
+
 ```
 
 ### 2. Install Dependencies
 
 Make sure you have a virtual environment set up, then install the necessary Python dependencies from the `requirements.txt` file:
 
-```bash
+```terminal
 pip install -r requirements.txt
 ```
 
