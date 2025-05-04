@@ -1,5 +1,3 @@
-Here’s a sample `README.md` for your Streamlit app, including an introduction to your healthcare knowledge-based system:
-
 ---
 
 # Healthcare Knowledge-Based System
@@ -24,7 +22,6 @@ To run this app, you need Python installed on your system. Follow the steps belo
 
 ```bash
 git clone https://github.com/kxrweng/wie3005-asm.git
-cd <your-repository-folder>
 ```
 
 ### 2. Install Dependencies
