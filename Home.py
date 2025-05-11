@@ -1,7 +1,10 @@
 import streamlit as st
+from PIL import Image
 
 # Set the page config for a better layout and title
 st.set_page_config(page_title="Healthcare Multi-Page App", layout="wide")
+
+st.image("assets/HealthBridge.jpg", use_container_width =True)
 
 # Title and header for the landing page
 st.title("Welcome to the Healthcare Multi-Page App")
@@ -26,14 +29,14 @@ st.markdown("""
     Choose a page from the sidebar to begin your journey.
 """)
 
-# Sidebar enhancements
-st.sidebar.title("Navigation")
-st.sidebar.write("Please choose a page from the options below:")
+# # Sidebar enhancements
+# st.sidebar.title("Navigation")
+# st.sidebar.write("Please choose a page from the options below:")
 
-# Add descriptive buttons or links
-st.sidebar.markdown("### Pages")
-st.sidebar.markdown("[Forum](pages/Forum.py)", unsafe_allow_html=True)
-st.sidebar.markdown("[AI Assistant](pages/AI_Assistant.py)", unsafe_allow_html=True)
+# # Add descriptive buttons or links
+# st.sidebar.markdown("### Pages")
+# st.sidebar.markdown("[Forum](pages/Forum.py)", unsafe_allow_html=True)
+# st.sidebar.markdown("[AI Assistant](pages/AI_Assistant.py)", unsafe_allow_html=True)
 
 # You can also add some custom styling if you want
 st.markdown("""

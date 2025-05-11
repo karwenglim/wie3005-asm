@@ -3,7 +3,7 @@ from datetime import datetime
 import uuid
 
 st.set_page_config(layout="wide")
-st.title("💬 Streamlit Forum")
+st.title("💬 Forum")
 
 # Initialize session_state with hardcoded posts only once
 if "posts" not in st.session_state:
